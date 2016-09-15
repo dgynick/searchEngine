@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context debug="1">
+    <Resource name="jdbc/BeesDb" auth="Container" type="javax.sql.DataSource"
+              maxActive="128" maxIdle="32" username="cs121" password="cs121"
+              driverClassName="com.mysql.jdbc.Driver" maxWait="10000"
+              factory="org.apache.tomcat.jdbc.pool.DataSourceFactory"
+              url="jdbc:mysql://localhost:3306/121Crawler" />
+</Context>
