@@ -1,0 +1,1 @@
+select * from IndexVector_Title where termid not in (select id from Terms_Title);

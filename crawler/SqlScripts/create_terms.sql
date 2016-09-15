@@ -1,0 +1,1 @@
+create table if not EXISTS 121Crawler.Terms(id Integer, term text, primary key(id));
